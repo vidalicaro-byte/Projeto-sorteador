@@ -16,6 +16,7 @@ img {
     object-fit: cover;
     display: block;
    margin: 0 auto;
+   border-color: #fbf3e4 ;
 
 }
 
@@ -83,3 +84,31 @@ button:active {
     opacity: 0.6;
 
 }
+
+@media screen and (max-width: 600px) {
+    
+        img {
+            width: 50%;
+        }
+        h1 {
+            font-size: 24px;
+        }
+       .label1 {
+            font-size: 14px;
+            display: block;
+        }
+        .label2 {
+            font-size: 14px;
+            display: block;
+        }
+        input {
+            display: block;
+            width: 100%;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+        }
+    }
+    
