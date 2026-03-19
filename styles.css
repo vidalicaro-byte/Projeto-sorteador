@@ -73,6 +73,17 @@ button {
 
 }
 
+p {
+
+    font-size: 28px;
+    color: #4f4ca2;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+
+}
+
 button:hover {
 
     opacity: 0.8;
